@@ -12,7 +12,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1>Glauko</h1>
+        <h1 className="text-5xl font-bold">
+          Glauko
+        </h1>
       </main>
     </>
   )
