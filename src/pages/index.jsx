@@ -1,6 +1,5 @@
 import Head from "next/head";
 
-import Header from "@/sections/Header";
 import Banner from "@/sections/Banner";
 import Social from "@/components/Social";
 
