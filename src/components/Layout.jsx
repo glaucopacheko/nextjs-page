@@ -1,3 +1,4 @@
+import Header from "@/sections/Header"
 import Head from "next/head"
 
 const Layout = ({ children }) => {
@@ -10,6 +11,7 @@ const Layout = ({ children }) => {
       <div className="min-h-screen flex flex-col">
      
         <main className="flex-grow">
+          <Header />
           { children }
         </main>
  

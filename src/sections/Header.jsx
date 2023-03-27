@@ -1,7 +1,5 @@
 import React from 'react';
 
-import Logo from '../../public/next.svg'
-
 const Header = () => {
   return(
     <header className='py-8'>
@@ -12,7 +10,7 @@ const Header = () => {
             <img src='/logo.svg' alt='Logo' />
           </a>
           {/* Button */}
-          <button className='btn btn-sm'>Entrar</button>
+          <button className='btn btn-sm'>Contato</button>
         </div>
       </div>
     </header>

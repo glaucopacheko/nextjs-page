@@ -12,11 +12,11 @@ const Banner = () => {
 })
   return(
 
-    <section id='home' className="h-screen flex flex-col space-x-8 items-center justify-center text-center overflow-hidden">
+    <section className=" h-screen flex flex-col items-center justify-center text-center overflow-hidden">
             <BackgroundCicle />
             <img
                 className=" relative rounded-full h-48 w-48 mx-auto object-cover"
-                src="/avatar.svg"
+                src="/avatar.jpeg"
                 alt=""
             />
             <div className=" z-20">
