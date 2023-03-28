@@ -1,19 +1,62 @@
-import React from 'react';
+import {
+  AiOutlineGithub,
+  AiOutlineTwitter,
+  AiOutlineLinkedin,
+  AiOutlineYoutube,
+} from "react-icons/ai"
 
 const Header = () => {
   return(
-    <header className='py-8'>
-      <div className='container mx-auto'>
-        <div className='flex justify-between items-center'>
-          {/* LOGO */}
-          <a href='#'>
-            <img src='/logo.svg' alt='Logo' />
+
+        <div className='my-4 z-20 md:hidden'>
+          <ul className=" flex flex-row items-center gap-3">
+        <li>
+          <a href="https://github.com/glaukopacheco" target="_blank">
+            <AiOutlineGithub
+              className="cursor-pointer text-white transition-transform hover:-translate-y-1 hover:text-[#F7AB0A]"
+              size={20}
+            />
           </a>
-          {/* Button */}
-          <button className='btn btn-sm'>Contato</button>
+          </li>
+          <li>
+          <a
+            href="https://twitter.com/glaukopacheco"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <AiOutlineTwitter
+              className="cursor-pointer text-white transition-transform hover:-translate-y-1 hover:text-[#F7AB0A]"
+              size={20}
+            />
+          </a>
+          </li>
+          <li>
+          <a
+            href="https://www.linkedin.com/in/glaukopacheco/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <AiOutlineLinkedin
+              className="cursor-pointer text-white  transition-transform hover:-translate-y-1 hover:text-[#F7AB0A]"
+              size={20}
+            />
+          </a>
+          </li>
+          <li>
+          <a
+            href="https://www.youtube.com/@glaukopacheco"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <AiOutlineYoutube
+              className="cursor-pointer text-white  transition-transform hover:-translate-y-1 hover:text-[#F7AB0A]"
+              size={20}
+            />
+          </a>
+          </li>
+          </ul>
         </div>
-      </div>
-    </header>
+
   )
 };
 

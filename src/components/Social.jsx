@@ -13,7 +13,7 @@ const Social = () => {
         <li>
           <a href="https://github.com/glaukopacheco" target="_blank" rel="noreferrer">
             <AiOutlineGithub
-              className="cursor-pointer text-white transition-transform hover:-translate-y-1 "
+              className="cursor-pointer text-white transition-transform hover:-translate-y-1 hover:text-[#F7AB0A] "
               size={25}
             />
           </a>
@@ -25,7 +25,7 @@ const Social = () => {
             rel="noreferrer"
           >
             <AiOutlineTwitter
-              className="cursor-pointer text-white transition-transform hover:-translate-y-1"
+              className="cursor-pointer text-white transition-transform hover:-translate-y-1 hover:text-[#F7AB0A] "
               size={25}
             />
           </a>
@@ -37,7 +37,7 @@ const Social = () => {
             rel="noreferrer"
           >
             <AiOutlineLinkedin
-              className="cursor-pointer text-white transition-transform hover:-translate-y-1 "
+              className="cursor-pointer text-white transition-transform hover:-translate-y-1 hover:text-[#F7AB0A] "
               size={25}
             />
           </a>
@@ -49,7 +49,7 @@ const Social = () => {
             rel="noreferrer"
           >
             <AiOutlineYoutube
-              className="cursor-pointer text-white transition-transform hover:-translate-y-1 "
+              className="cursor-pointer text-white transition-transform hover:-translate-y-1 hover:text-[#F7AB0A] "
               size={25}
             />
           </a>

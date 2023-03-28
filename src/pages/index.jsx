@@ -2,6 +2,7 @@ import Head from "next/head";
 
 import Banner from "@/sections/Banner";
 import Social from "@/components/Social";
+import Header from "@/sections/Header";
 
 export default function Home() {
 
@@ -14,6 +15,7 @@ export default function Home() {
       </Head>
 
       <div className="bg-[rgb(36,36,36)]">
+      
         <Social />
         <Banner />
       </div>

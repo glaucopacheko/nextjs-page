@@ -3,6 +3,7 @@ import React from 'react';
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 
 import BackgroundCicle from '@/components/BackgroundCicle';
+import Header from './Header';
 
 const Banner = () => {
   const [text] = useTypewriter({
@@ -12,14 +13,15 @@ const Banner = () => {
 })
   return(
 
-    <section className=" h-screen flex flex-col items-center justify-center text-center overflow-hidden">
+    <section className="h-screen flex flex-col items-center justify-center text-center overflow-hidden">
+      
             <BackgroundCicle />
             <img
                 className="relative rounded-full lg:h-48 lg:w-48 w-32 h-32 mx-auto object-cover"
                 src="/avatar.jpeg"
                 alt=""
             />
-            <div className=" z-20">
+            <div>
                 <h2 className="text-1xl md:text-3xl uppercase text-gray-500 pb-2 pt-4 lg:tracking-[15px] tracking-[5px]">
                     Glauko Pacheco
                 </h2>
@@ -29,7 +31,7 @@ const Banner = () => {
                 </h1>
 
             </div>
-      
+            <Header />
         </section>
   )
 };
